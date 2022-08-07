@@ -11,4 +11,8 @@
     v.push_back(34);              //vector's first value is declare as 34
     v.push_back(45);              //vector's next value is 45
     v.push_back(21);
+    
+    int s= v.size();               // s=3
+    
+    
   }
