@@ -1,0 +1,14 @@
+ VECTOR :
+
+ #include<bits/stdc++.h>
+ using namespace std;
+ 
+ int main(){
+    
+    vector<int> v;                //vector declare with the name of "v"
+    
+    
+    v.push_back(34);              //vector's first value is declare as 34
+    v.push_back(45);              //vector's next value is 45
+    v.push_back(21);
+  }
