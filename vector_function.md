@@ -8,58 +8,118 @@ but if you want to go through more functions, here it is: </p>
   </tr>
    
   <tr>
-    <td>at()	                   </td><td>  It provides a reference to an element.</td>
+    <td>at()</td><td>It provides a reference to an element.</td>
   </tr>
      
   <tr>
-    <td></td><td/td>
+    <td>back()</td><td>It gives a reference to the last element.</td>
   </tr>
      
   <tr>
-    <td></td><td/td>
+    <td>front()	</td><td>It gives a reference to the first element.</td>
   </tr>
      
   <tr>
-    <td></td><td/td>
+    <td>swap()</td><td>It exchanges the elements between two vectors.</td>
   </tr>
      
   <tr>
-    <td></td><td/td>
+    <td>push_back()	</td><td>It adds a new element at the end.</td>
   </tr>
      
   <tr>
-    <td></td><td/td>
+    <td>pop_back()	</td><td>It removes a last element from the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>empty()	</td><td>It determines whether the vector is empty or not.</td>
+  </tr>
+  
+  <tr>
+    <td>insert() </td><td>It inserts new element at the specified position.</td>
+  </tr>
+  
+  <tr>
+    <td>erase()	</td><td>It deletes the specified element.</td>
+  </tr>
+
+  <tr>
+    <td>resize()	</td><td>It modifies the size of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>clear()	</td><td>It removes all the elements from the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>size()	</td><td>It determines a number of elements in the vector.</td>
+  </tr>
+
+  <tr>
+    <td>capacity()	</td><td>It determines the current capacity of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>assign()	</td><td>It assigns new values to the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>operator=()	</td><td>It assigns new values to the vector container.</td>
+  </tr>
+  
+  <tr>
+    <td>operator[]()	</td><td>It access a specified element.</td>
+  </tr>
+ 
+  <tr>
+    <td>end()	</td><td>It refers to the past-lats-element in the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>emplace()	</td><td>It inserts a new element just before the position pos.</td>
+  </tr>
+  
+  <tr>
+    <td>emplace_back()	</td><td>It inserts a new element at the end.</td>
+  </tr>
+  
+  <tr>
+    <td>rend()	</td><td>It points the element preceding the first element of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>rbegin()	</td><td>It points the last element of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>begin()	</td><td>It points the first element of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>max_size()	</td><td>It determines the maximum size that vector can hold.</td>
+  </tr>
+  
+  <tr>
+    <td>cend()	</td><td>It refers to the past-last-element in the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>cbegin()	</td><td>It refers to the first element of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>crbegin()	</td><td>It refers to the last character of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>crend()	</td><td>It refers to the element preceding the first element of the vector.</td>
+  </tr>
+  
+  <tr>
+    <td>data()	</td><td>It writes the data of the vector into an array.</td>
+  </tr>
+  
+  <tr>
+    <td>shrink_to_fit()	</td><td>It reduces the capacity and makes it equal to the size of the vector.</td>
   </tr>
 </table>
-
-       
--
-- back()	                  It gives a reference to the last element.
-front()	It gives a reference to the first element.
-swap()	It exchanges the elements between two vectors.
-push_back()	It adds a new element at the end.
-pop_back()	It removes a last element from the vector.
-empty()	It determines whether the vector is empty or not.
-insert()	It inserts new element at the specified position.
-erase()	It deletes the specified element.
-resize()	It modifies the size of the vector.
-clear()	It removes all the elements from the vector.
-size()	It determines a number of elements in the vector.
-capacity()	It determines the current capacity of the vector.
-assign()	It assigns new values to the vector.
-operator=()	It assigns new values to the vector container.
-operator[]()	It access a specified element.
-end()	It refers to the past-lats-element in the vector.
-emplace()	It inserts a new element just before the position pos.
-emplace_back()	It inserts a new element at the end.
-rend()	It points the element preceding the first element of the vector.
-rbegin()	It points the last element of the vector.
-begin()	It points the first element of the vector.
-max_size()	It determines the maximum size that vector can hold.
-cend()	It refers to the past-last-element in the vector.
-cbegin()	It refers to the first element of the vector.
-crbegin()	It refers to the last character of the vector.
-crend()	It refers to the element preceding the first element of the vector.
-data()	It writes the data of the vector into an array.
-shrink_to_fit()	It reduces the capacity and makes it equal to the size of the vector.
-
