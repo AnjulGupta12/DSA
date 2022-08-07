@@ -24,4 +24,5 @@ Whole DSA is divided in these subtopics:
 3. Find the duplicate number
 4. Finding the darkness
 5. Rotate array by n elements
-6. 
+6. Plus one 
+7. Product of Array except self 
