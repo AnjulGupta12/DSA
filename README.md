@@ -18,4 +18,10 @@ Whole DSA is divided in these subtopics:
 
 
 > QUESTIONS:
-
+**VECTOR**
+1. Largest Number
+2. Max Profit
+3. Find the duplicate number
+4. Finding the darkness
+5. Rotate array by n elements
+6. 
