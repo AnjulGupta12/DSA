@@ -60,6 +60,5 @@
   
   //BONUS SHORTCUT
   int k = *max_element(v.begin(), v.end());    //To find maximum element, O(n) time complexity
-    
-    
+  
   }
