@@ -105,3 +105,152 @@ public:
 
 
 
+
+//MAX CONSECUTIVE ONE
+/*
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+Example 1:
+Input: nums = [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
+*/
+
+class Solution {
+public:
+    int findMaxConsecutiveOnes(vector<int>& nums) {
+         
+        vector<int> vec;
+        int i=0;
+        while(i<nums.size())
+        {
+            int j=0;
+            while(i<nums.size() && nums[i]==1)
+            {
+                j++;
+                i++;
+            }
+            vec.push_back(j);
+            i++;
+        }
+        return *max_element(vec.begin(), vec.end());
+    }
+};
+
+
+
+
+
+//FIND THE DUPLICATE NUMBER
+/*
+Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
+There is only one repeated number in nums, return this repeated number.
+You must solve the problem without modifying the array nums and uses only constant extra space.
+
+Example 1:
+Input: nums = [1,3,4,2,2]
+Output: 2
+*/
+
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        int k=0;
+        sort(nums.begin(), nums.end());
+        for(int i=0; i<nums.size()-1; i++)
+        {
+            if(nums[i] = nums[i+1])
+                k= nums[i];
+        }
+        return k;
+    }
+};
+// O(n^2) is worser than O(n log(n))
+
+
+
+
+
+
+//PLUS ONE
+/*
+You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+Increment the large integer by one and return the resulting array of digits.
+
+Example 1:
+Input: digits = [1,2,3]
+Output: [1,2,4]
+Explanation: The array represents the integer 123.
+Incrementing by one gives 123 + 1 = 124.
+Thus, the result should be [1,2,4].
+*/
+
+class Solution {
+public:
+    vector<int> plusOne(vector<int>& digits) 
+    {
+        int n = digits.size();
+        int carry = 0;
+        
+        digits[n-1] = digits[n-1] + 1;
+        
+        if(digits[n-1] == 10)
+        {
+            carry = 1;
+            digits[n-1] = 0;
+        }
+        
+        for(int i = n-2; i>=0; i--)
+        {
+            digits[i] = digits[i] + carry;
+            if(digits[i] == 10)
+            {
+                digits[i] = 0;
+                carry = 1;
+            }
+            else
+            {
+                carry = 0;
+            }
+        }
+        
+        if(carry == 1)
+        {
+            digits.insert(digits.begin(),1);
+        }
+        
+        return digits;        
+    }
+};
+
+
+
+
+
+//PRODUCT OF ARRAY EXCEPT SELF
+/*
+Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+You must write an algorithm that runs in O(n) time and without using the division operation.
+
+Example 1:
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
+
+Constraints:
+2 <= nums.length <= 105
+-30 <= nums[i] <= 30
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
