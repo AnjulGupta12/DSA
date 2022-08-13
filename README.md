@@ -23,7 +23,9 @@ Whole DSA is divided in these subtopics:
 2. Max Profit
 3. Maximum Consecutive One
 4. Find the duplicate number
-5. Finding the darkness
-6. Rotate array by n elements
-7. Plus one 
-8. Product of Array except self 
+5. Plus one
+6. Product of Array except self  
+7. Finding the darkness
+8. Rotate array by n elementsy
+
+
