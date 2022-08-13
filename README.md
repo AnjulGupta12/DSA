@@ -21,8 +21,9 @@ Whole DSA is divided in these subtopics:
 **VECTOR**
 1. Largest Number
 2. Max Profit
-3. Find the duplicate number
-4. Finding the darkness
-5. Rotate array by n elements
-6. Plus one 
-7. Product of Array except self 
+3. Maximum Consecutive One
+4. Find the duplicate number
+5. Finding the darkness
+6. Rotate array by n elements
+7. Plus one 
+8. Product of Array except self 
