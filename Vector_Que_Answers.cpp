@@ -13,10 +13,9 @@ Explanation:
 
 Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(1)
-
- https://practice.geeksforgeeks.org/problems/largest-element-in-array4009/1?difficulty%5B%5D=-1&page=1&query=difficulty%5B%5D-1page1
 */
 
+//Fix 1st element in variable then compare it with next element, if greater then save it in that variable.
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -56,32 +55,16 @@ Constraints:
 0 <= prices[i] <= 104
 */
 
-class Solution 
-{
-public:
-    int maxProfit(vector<int>& prices) 
-    {
-       int maxProf = 0, minNum = INT_MAX;
-        for(int i = 0 ; i < prices.size() ; i++) {
-            if(prices[i] < minNum)
-                minNum = prices[i];
-            if(prices[i] - minNum > maxProf)
-                maxProf = prices[i] - minNum;
-        }
-        return maxProf;
-    }
-};
-
-
-
-//OR
-
+// apne right side dekho max aur current price s minus 
+//maxAtRight = {6,6,6,6,4,0}
+//price =      {7,1,5,3,6,4}
+//Profit=      {-1,5,1,3,-2,-4}
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         
         int n = prices.size();
-        vector<int> maxAyRight(n,0);
+        vector<int> maxAtRight(n,0);
         int curMax = prices[n-1];
         
         for(int i=n-2; i>=0; i--)
@@ -116,6 +99,7 @@ Output: 3
 Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
 */
 
+//no of consecutive n ko 1 array mai save karte rho then max print karwa do
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -133,7 +117,7 @@ public:
             vec.push_back(j);
             i++;
         }
-        return *max_element(vec.begin(), vec.end());
+        return *max_element(vec.begin(), vec.end());       //O(n) time complexity
     }
 };
 
@@ -152,6 +136,7 @@ Input: nums = [1,3,4,2,2]
 Output: 2
 */
 
+//sort maar do aur jo consecutive repeat maare usse print kar do 
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -185,6 +170,31 @@ Incrementing by one gives 123 + 1 = 124.
 Thus, the result should be [1,2,4].
 */
 
+
+//VERY GOOD QUE: 
+/*
+              [1,     2,     3]                        [9,     9]
+   N=3                                  N=2
+   carry=0                            carry=0
+                             +1                               +1
+                             [4]                              [10]
+                             
+   carry=0                            carry =1                 [0]
+   
+                      +0                               +1
+                      [2]                              [10]
+                      
+   carry=0                            carry=1           [0]
+   
+              +0
+              [1]
+   carry=0
+    
+                                                  [1](insert at begining since 1 is carry after loop end)
+             [1,       2,       4]                 [1,    0,     0]
+             
+   
+*/
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) 
@@ -242,6 +252,8 @@ Constraints:
 -30 <= nums[i] <= 30
 The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
 */
+
+// apne right side k elements multiple karo, apne left side k elements multiple karo, dono resultant vectors k element multiple karo
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -259,19 +271,3 @@ public:
         return nums;
     }
 };
-
-
-
-
-//
-
-
-
-
-
-
-
-
-
-
-
