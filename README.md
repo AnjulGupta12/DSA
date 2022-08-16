@@ -29,7 +29,7 @@ Whole DSA is divided in these subtopics:
 8. Rotate array by n elementsy
 
 > QUESTIONS: 
-**STRING**
+**STRINGS**
 1. Reverse String
 2. Valid Anagram
 3. Red or Green
