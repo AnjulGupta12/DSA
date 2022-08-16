@@ -53,3 +53,21 @@ int main(){
   }
 
 }
+
+
+/*
+
+cout<<"Please enter text: "                     -> o/p
+getline(cin, s1)                                -> i/p  "Hello World"  //if cin>>s1 then it will not take "World" will gonna take "Hello" only
+s1[1]                                           ->  e
+s1.length()                                     -> size
+sort(s1.begin(), s1.end())                      -> sorting (space-> capital-> small case)       O(NlogN)
+reverse(s1.begin(), s1.end())                   -> reverse                                      O(N)
+s = str1 + str2                                 ->  to add to string 
+int a- = stoi(str1)                             ->  force string into int
+string s= to_string(x)                          ->  force int into string
+int t = 'b'                                     ->  for ASCII value                            A-Z(90)      (97)a-z
+swap(s.begin(), s.end())                        ->  to swap 1st and last                        O(N)
+
+
+*/
