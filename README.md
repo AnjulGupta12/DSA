@@ -28,4 +28,13 @@ Whole DSA is divided in these subtopics:
 7. Finding the darkness
 8. Rotate array by n elementsy
 
+> QUESTIONS: 
+**STRING**
+1. Reverse String
+2. Valid Anagram
+3. Red or Green
+4. Sum of number in string.
+5. Defanging IP Address
+6. Minimum number of operation to move all balls to each box.
+
 
