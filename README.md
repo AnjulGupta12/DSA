@@ -37,6 +37,27 @@ Whole DSA is divided in these subtopics:
 5. Defanging IP Address
 6. Minimum number of operation to move all balls to each box.
 
+> QUESTIONS: 
+**SORTING**
+1. Sorting Employees
+2. Wave Array
+3. Case specific sorting of strings
+4. Permutation in Array
+5. Filter Restaurants by Vegan-friendly, Price and Distance
+6. Merge Intervals
+7. Custom sort string
+8. Insert Interval
+
+> QUESTIONS: 
+**HASHING**
+1. Duplicate contains
+2. Contains Duplicate II
+3. Match specific pattern
+4. Check if a string is Isogram or not 
+5. Group Anagrams
+6. Two sum
+7. Sort array by increasing frequency
+
 
 
 
