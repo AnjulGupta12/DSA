@@ -60,7 +60,7 @@ Whole DSA is divided in these subtopics:
 5. Group Anagrams
 6. Two sum
 7. Sort array by increasing frequency
-
+8. Max distance between same elements
 
 
 
