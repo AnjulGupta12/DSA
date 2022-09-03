@@ -1,6 +1,7 @@
-<p><h4>Go through the cheatsheet for relevant functions.</h4></br> 
+<p><h4>Go through the cheatsheet for relevant functions.</h4>
 but if you want to go through more functions, here it is: </p>
-
+</br>
+This is not for the purpose to memorize but only for help purpose. In 99% case you don't need this table. But important one are in bold.
 <table>
   <tr>
     <th>Function	</th>
@@ -20,11 +21,11 @@ but if you want to go through more functions, here it is: </p>
   </tr>
      
   <tr>
-    <td>swap()</td><td>It exchanges the elements between two vectors.</td>
+    <td><h3>swap()</td><td>It exchanges the elements between two vectors.</td>
   </tr>
      
   <tr>
-    <td>push_back()	</td><td>It adds a new element at the end.</td>
+    <td><h3>push_back()	</td><td>It adds a new element at the end.</td>
   </tr>
      
   <tr>
@@ -36,11 +37,11 @@ but if you want to go through more functions, here it is: </p>
   </tr>
   
   <tr>
-    <td>insert() </td><td>It inserts new element at the specified position.</td>
+    <td><h3>insert() </td><td>It inserts new element at the specified position.</td>
   </tr>
   
   <tr>
-    <td>erase()	</td><td>It deletes the specified element.</td>
+    <td><h3>erase()	</td><td>It deletes the specified element.</td>
   </tr>
 
   <tr>
@@ -72,7 +73,7 @@ but if you want to go through more functions, here it is: </p>
   </tr>
  
   <tr>
-    <td>end()	</td><td>It refers to the past-lats-element in the vector.</td>
+    <td><h3>end()	</td><td>It refers to the past-lats-element in the vector.</td>
   </tr>
   
   <tr>
@@ -92,7 +93,7 @@ but if you want to go through more functions, here it is: </p>
   </tr>
   
   <tr>
-    <td>begin()	</td><td>It points the first element of the vector.</td>
+    <td><h3>begin()	</td><td>It points the first element of the vector.</td>
   </tr>
   
   <tr>
