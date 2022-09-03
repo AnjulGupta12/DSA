@@ -1,8 +1,11 @@
-<p><h4>Go through the cheatsheet for relevant functions.</h4></br> 
+<p><h4>Go through the cheatsheet for relevant functions.</h4>
 but if you want to go through more functions, here it is: </p>
+
+ This is not for the purpose to memorize but only for help purpose. In 99% case you don't need this table.
 
 <table class="alt">
 <tbody>
+
   <tr>
     <th>Function</th>
     <th>Description</th>
@@ -12,7 +15,7 @@ but if you want to go through more functions, here it is: </p>
     <td>It is used to compare two string objects.</td>
   </tr>
   <tr>
-    <td><a href="cpp-string-length-function">int length()</a></td>
+    <td><a href="cpp-string-length-function"><h4>int length()</h4></a></td>
     <td>It is used to find the length of the string.</td>
   </tr>
 <tr>
@@ -20,7 +23,7 @@ but if you want to go through more functions, here it is: </p>
     <td>It is used to swap the values of two string objects.</td>
 </tr>
 <tr>
-    <td>string substr(int pos,int n)</td>
+    <td><a href="cpp-string-substr-function">string substr(int pos,int n)</a></td>
     <td>It creates a new string object of n characters.</td>
 </tr>
 <tr>
@@ -100,31 +103,31 @@ but if you want to go through more functions, here it is: </p>
     <td>It returns the allocated space for the string.</td>
 </tr>
 <tr>
-    <td>const_iterator cbegin()</td>
+    <td><a href="cpp-string-capacity-function">const_iterator cbegin()</td>
     <td>It points to the first element of the string.</td>
 </tr>
 <tr>
-    <td>const_iterator cend()</td>
+    <td><a href="cpp-string-capacity-function">const_iterator cend()</td>
     <td>It points to the last element of the string.</td>
 </tr>
 <tr>
-    <td>void clear()</td>
+    <td><a href="cpp-string-capacity-function">void clear()</td>
     <td>It removes all the elements from the string.</td>
 </tr>
 <tr>
-    <td>const_reverse_iterator crbegin()</td>
+    <td><a href="cpp-string-capacity-function">const_reverse_iterator crbegin()</td>
     <td>It points to the last character of the string.</td>
 </tr>
 <tr>
-    <td>const_char* data()</td>
+    <td><a href="cpp-string-capacity-function">const_char* data()</td>
     <td>It copies the characters of string into an array.</td>
 </tr>
 <tr>
-    <td>bool empty()</td>
+    <td><a href="cpp-string-capacity-function">bool empty()</td>
     <td>It checks whether the string is empty or not.</td>
 </tr>
 <tr>
-    <td>string&amp; erase()</td>
+    <td><a href="cpp-string-capacity-function">string &amp; erase()</td>
     <td>It removes the characters as specified.</td>
 </tr>
 <tr>
@@ -140,7 +143,7 @@ but if you want to go through more functions, here it is: </p>
     <td>It assigns a new value to the string.</td>
 </tr>
 <tr>
-    <td>char operator[](pos)</td>
+    <td><a href="cpp-string-capacity-function">char operator[](pos)</td>
     <td>It retrieves a character at specified position pos.</td>
 </tr>
 <tr>
@@ -172,11 +175,11 @@ but if you want to go through more functions, here it is: </p>
     <td>It reference the last character of the string.</td>
 </tr>
 <tr>
-    <td>void reserve(inr len)</td>
+    <td><a href="cpp-string-capacity-function">void reserve(inr len)</td>
     <td>It requests a change in capacity.</td>
 </tr>
 <tr>
-    <td>allocator_type get_allocator();</td>
+    <td><a href="cpp-string-capacity-function">allocator_type get_allocator();</td>
     <td>It returns the allocated object associated with the string.</td>
 </tr>
 </tbody></table>
