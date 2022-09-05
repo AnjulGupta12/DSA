@@ -1,8 +1,6 @@
 # DSA
-DSA (Data Structure and Algorithm) This repository is only for practice students can go through the list(question) in readme file(with the title of leetcode and geek_for_geek question) and Answers and also available accordingly. It is been recommended to try each and every question by yourself first even after trial of 25 min if you are unable to solve it then only go for answers.
-</br></br>
-First go through CHEATSHEET then QUESTION.
-</br>FUNCTIONS TABLE are only for help purpose BUT IT IS OF ALMOST NO USE.
+DSA (Data Structure and Algorithm) This repository is only for practice 
+
 
 Whole DSA is divided in these subtopics:
 - Vector
