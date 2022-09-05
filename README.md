@@ -1,5 +1,5 @@
 # DSA
-DSA (Data Structure and Algorithm) This repository is only for practice 
+DSA (Data Structure and Algorithm) This repository is only for practice of myself.
 
 
 Whole DSA is divided in these subtopics:
