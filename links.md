@@ -5,15 +5,15 @@ Solution 1 : https://pastebin.com/Sefgnc65</BR>
 
 Practice Problem 2:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/</BR>
 Solution 2: https://pastebin.com/As8dCQqZ</BR>
-
+</BR>
 https://leetcode.com/problems/max-consecutive-ones/
-</BR>https://leetcode.com/problems/find-the-duplicate-number/
+</BR>https://leetcode.com/problems/find-the-duplicate-number/</BR>
 </BR>
 Practiced Problem 1 : https://leetcode.com/problems/plus-one/
-</BR>Solution 1 : https://pastebin.com/02qTbYWX
+</BR>Solution 1 : https://pastebin.com/02qTbYWX</BR>
 </BR>
 Practice Problem 2 : https://leetcode.com/problems/product-of-array-except-self/
-</BR>Solution 2: https://pastebin.com/WuJCUCEU
+</BR>Solution 2: https://pastebin.com/WuJCUCEU</BR>
 </BR>
 https://practice.geeksforgeeks.org/problems/fighting-the-darkness3949/1/
 </BR>https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0/
