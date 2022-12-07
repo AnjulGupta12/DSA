@@ -1,6 +1,4 @@
 # DSA
-DSA (Data Structure and Algorithm) This repository is for practice for myself.
-
 
 Whole DSA is divided in these subtopics:
 - Vector
