@@ -74,29 +74,29 @@ Whole DSA is divided in these subtopics:
   - - [ ] Types of languages
   - - [ ] Memory management
 - [ ] Flow of the program
-  - - [ ] Flowcharts 
+  - - [x] Flowcharts 
   - - [ ] Pseudocode
 - [ ] Introduction to Java
-  - - [ ] Introduction
-  - - [ ] How it works
-  - - [ ] Setup Installation
+  - - [x] Introduction
+  - - [x] How it works
+  - - [x] Setup Installation
   - - [ ] Input and Output in Java
-  - - [ ] Conditionals & Loops in Java
-    - - [ ] if else
-    - - [ ] loops
-    - - [ ] Switch statements
-  - - [ ] Data types
+  - - [x] Conditionals & Loops in Java
+    - - [x] if else
+    - - [x] loops
+    - - [x] Switch statements
+  - - [x] Data types
   - - [ ] Coding best practices
 - [ ] Functions
-  - - [ ] Introduction
-  - - [ ] Scoping in Java
+  - - [x] Introduction
+  - - [x] Scoping in Java
   - - [ ] Shadowing 
   - - [ ] Variable Length Arguments
   - - [ ] Overloading
 - [ ] Arrays
-  - - [ ] Introduction 
+  - - [x] Introduction 
   - - [ ] Memory management 
-  - - [ ] Input and Output
+  - - [x] Input and Output
   - - [ ] ArrayList Introduction
   - - [ ] Sorting 
     - - [ ] Insertion Sort
